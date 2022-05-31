@@ -8,3 +8,8 @@ em {
   font-style: italic;
   color: cornflowerblue;
 }
+
+#messages {
+  height: 15em;
+  overflow: auto;
+}

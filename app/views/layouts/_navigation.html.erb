@@ -2,7 +2,9 @@
   Chatroom
 </a>
 <a class="item">
-  Messages
+  <% if logged_in? %>
+  <%=@current_user.username %>
+    <% end %>
 </a>
 <div class="right menu">
   <div class="ui dropdown item">
